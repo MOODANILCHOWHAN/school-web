@@ -1,0 +1,123 @@
+.continer{
+    width: 1000px;
+    
+}
+#list1 {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(78, 76, 76);
+    color: black;
+    
+  }
+ 
+  #list1 li {
+    float: left;
+    color: black;
+  }
+  
+  #list1 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 7px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  #list1 li a:hover {
+    background-color: #910eef;
+  }
+
+  /* image */
+  #img
+  {
+    width: 1000px;
+    height: 500px;
+    background-image: url('Layer 7.png');
+    background-size: cover; 
+    background-position: center;
+  }
+  #list2
+  {
+    width: 250px;
+    list-style-type: none;
+    text-decoration: none;
+    background-color:deepskyblue;
+    float: right;
+
+  }
+  #list2-l
+  {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: left;
+    color: aliceblue;
+    font-style: inherit;
+  }
+  #list2 li
+  {
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  #list2-div1
+  {
+    background-color:rgb(109, 67, 234);
+    width: 250px;
+    height: 30px;
+   text-align: center;
+   padding-top: 20px;
+   
+  }
+  #list2-div2
+  {
+    background-color: #a286b6(0, 0, 255, 0.5);
+    padding: 20px;
+   
+
+  }
+  .image-container {
+    display: flex;
+    align-items: center;
+  }
+  .image-container img {
+    max-width: 100%; 
+      margin-right: 20px; 
+  }
+  .image-container pre
+  {
+    float: right;
+  }
+
+  .services{
+    font-size: 0;
+    margin: 0PX; 
+    padding: 0%;
+  }
+  
+  .box {
+    width: 30%; 
+     
+    display: inline-block; 
+    margin-right: 20px; 
+    font-size: 16px; 
+    margin-top: 0%;
+  }
+  #box2
+  {
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-bottom: -5px;
+    margin: 0%;
+  }
+  .last
+  {
+     margin: 120px;
+     margin-top: 0%;
+  }
+  
+  #advise
+  {
+    float: left;
+  }
